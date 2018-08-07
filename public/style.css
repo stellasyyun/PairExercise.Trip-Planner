@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #C1B5AD;
+}
+
+#map {
+  height: 90vh;
+  width: 80vw;
+}
+
+nav {
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  background-color: burlywood;
+}
+
+nav p {
+  position: fixed;
+  font-size: 1.5em;
+  bottom: 0;
+  left: 2vw;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Palanquin Dark', sans-serif;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#sidebar {
+  background-color: burlywood;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 20vw;
+  height: 100vh;
+}
+
+h2 {
+  color: white;
+  font-family: 'Palanquin Dark', sans-serif;
+}
+
+.inner {
+  padding: 20px;
+}
+
+select {
+  font-family: 'Hind', sans-serif;
+}
